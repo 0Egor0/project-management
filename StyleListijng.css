@@ -1,0 +1,57 @@
+/* Стили для шапки */
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+​
+​
+/* Стили для подвала */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+​
+​
+​
+main {
+   position: relative;
+   height: 130vh;
+   background-image: url(&#39;Images/Back.jpg&#39;);
+   background-size: cover;
+   background-position: center;
+
+43
+
+  /* filter: sepia(0.5);
+   
+   
+  filter: blur(2px);
+  */
+}
+​
+.overlay {
+   position: absolute;
+   width: 80%; /* Ширина элемента */
+   height: 100%; /* Высота элемента */  
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%); /* Смещение влево на половину ширины элемента */
+   background-color: rgba(0, 0, 0, 0.6);
+   backdrop-filter: blur(3px) sepia(1) ;
+   padding: 20px; /* Отступы внутри оверлея */
+   color: white;
+   /*filter: blur(15px); Размытие */
+}
+​
+#map {
+   width: 80%; /*Ширина контейнера карты */
+   height: 736px; /* Высота контейнера карты */
+   top: 0;
+   left: 50%;
+   transform: translateX(12%);
+​
+}
